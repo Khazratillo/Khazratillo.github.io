@@ -1,0 +1,76 @@
+.img-thumbnail  {
+    width: 30px;
+    height: 30px;
+    background-color: #ffc107;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.editors {
+    background-color: #e2eaed;
+    margin-top:80px ;
+    width: 400px;
+    height: 30px;
+    border-radius: 20px;
+    padding: 0 80px 0 0px;
+}
+
+.bg {
+    font-size: 18px;
+    line-height: 28px;
+    max-width: 488px;
+    color: #242f51;
+}
+.logo2 {
+    font-size: 60px;
+    font-weight: 600;
+    color: #242f51;
+    line-height: 75px;
+    margin-top: 10px;
+}
+
+.mt_10 {
+    font-size: 18px;
+    line-height: 28px;
+    max-width: 488px;
+    color: #646363;
+    margin-top: 10px;
+}
+
+.mt_35 {
+    margin-top: 35px;
+}
+
+.submit {
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 25px;
+    transition: ease 1s;
+}
+
+.submit:hover {
+    background-color:transparent;
+}
+
+.jek {
+    animation-name: phone;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+@keyframes phone {
+    0% {
+        transform: translateY(5px);
+        animation-delay:10s ;
+    }
+
+    50% {
+        transform: translateY(15px);
+    }
+
+    100% {
+        animation-delay:10s ;
+        transform: translateY(5px);
+    }
+}
